@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Main Content Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card Component */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* List Styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
